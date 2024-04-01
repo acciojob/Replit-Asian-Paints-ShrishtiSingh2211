@@ -4,6 +4,9 @@
   flex-direction: column;
   align-items: center;
 }
+.grid-item{
+	background-color:rgb(255,0,0);
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 100px);

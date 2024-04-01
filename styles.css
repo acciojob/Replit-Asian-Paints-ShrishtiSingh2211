@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+}
+
+.grid-item {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+form {
+  margin-top: 20px;
+}
+
+button {
+  margin-left: 10px;
+}
